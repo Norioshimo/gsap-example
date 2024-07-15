@@ -1,0 +1,57 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333; 
+}
+
+
+
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+  color: #495b9b;
+  background-color: transparent;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #f0b922;
+  border-bottom-color: #f0b922;
+}
+
+.cursor { 
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+  transform-origin: center center; 
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.grow,
+.grow-small {
+  transform: scale(2);
+  background: #fff;
+  mix-blend-mode: difference;
+  border: none;
+}
+
+.grow-small {
+  transform: scale(1);
+}
+
+ 
